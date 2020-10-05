@@ -1,0 +1,66 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb",
+      "plugin:@typescript-eslint/recommended",
+      "prettier/@typescript-eslint",
+      "plugin:prettier/recommended"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 11,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "react-hooks",
+      "@typescript-eslint",
+      "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",//O padrão airBnB pede que use o pacote de tipos prop-types, mas já estamos usando typescript que cumpre essa função.
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-expressions": "off",
+    "react/jsx-filename-extension": [1, {"extensions": [".tsx"] }],
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/camelcase": "off",
+    "import/no-duplicates": "off",
+    "import/no-unresolved": "off",
+    "camelcase": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {// permite importar as extenções a baixo sem ter erro ao se omitir a extenção
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "settings": {//permite usar typescript
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
