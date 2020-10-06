@@ -23,7 +23,7 @@ It is also possible to make changes to registration such as profile image, name,
 This project was developed in React-native and typescript.
 
 Libraries and packages:
-async-storage: Employed to store information locally, as credentials.
+<strong>async-storage:</strong> Employed to store information locally, as credentials.
 datetimepicker: Standard date forms of mobile systems.
 toolbar-android: Enables the creation of a toolbar on android.
 unform: Library for handling forms in react.
