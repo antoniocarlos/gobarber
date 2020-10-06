@@ -1,13 +1,10 @@
-
-[Leia esta página em português](http....README-pt.md)
-
-## Gobarber
+## 🪒💈 Gobarber
 
 Gobarber is a system to manage barbershops.
 Composed by a desktop and mobile front-end and a REST API as back-end.
-This project was developed during the course GoStack 11, provided by Rockseat.
+This project was developed during the course GoStack 11, provided by Rockseat 🚀 .
 
-## Front-end mobile
+## 📱 Front-end mobile
 
 ![mobile app](./docs/appgogarger.gif)
 
@@ -22,7 +19,7 @@ It is also possible to make changes to registration such as profile image, name,
 ### Technologies
 This project was developed in React-native and typescript.
 
-Libraries and packages:<br>
+**Libraries and packages:**<br>
 **async-storage:** Employed to store information locally, as credentials.<br>
 **datetimepicker:** Standard date forms of mobile systems.<br>
 **toolbar-android:** Enables the creation of a toolbar on android.<br>
@@ -34,7 +31,7 @@ Libraries and packages:<br>
 **styled-components:** Styling library.<br>
 **yup:** Library for data validation.<br>
 
-## Front-end web
+## 💻 Front-end web
 
 ![mobile app](./docs/gogargerWEB.gif)
 
@@ -43,7 +40,7 @@ The web front-end was designed for the barber to follow their schedules.
 ### Technologies
 This project was developed in React and typescript.
 
-
+**Libraries and packages:**<br>
 **jest:** Used for tests.<br>
 **axios:** Making external calls to APIs.<br>
 **polished:** Used to cause changes in styles in response to user interactions.<br>
@@ -55,11 +52,12 @@ This project was developed in React and typescript.
 **uuidv4:** Unique key generator.<br>
 **yup:** Library for data validation.<br>
 
-## REST API
+## 🤖 REST API
 
 The back-end is composed of a REST API developed in node and typescript.
 
 ### Technologies<br>
+**Libraries and packages:**<br>
 **express:** Framework for creating web services.<br>
 **aws-sdk:** SDK for integrating AWS services.<br>
 **multer:** Library to develop midwares.<br>
@@ -80,4 +78,6 @@ mongo db: Document-based database.
 
 This infrastructure runs on independent containers in the docker, making the project highly scalable and performance-oriented.
 
+### :memo: LICENSE
 
+The project can be copied and modified, as long as due credit is given.
