@@ -22,17 +22,17 @@ It is also possible to make changes to registration such as profile image, name,
 ### Technologies
 This project was developed in React-native and typescript.
 
-Libraries and packages:
-**async-storage:** Employed to store information locally, as credentials.
-**datetimepicker:** Standard date forms of mobile systems.
-**toolbar-android:** Enables the creation of a toolbar on android.
-**unform:** Library for handling forms in react.
-**axios:** Making external calls to APIs.
-**react-native-gesture-handler:** Used to capture the user's gestures.
-**react-native-image-picker:** Allows you to choose an image from the gallery or activate the camera independent of the mobile system.
-**react-native-vector-icons:** Icon pack for react.
-**styled-components:** Styling library.
-**yup:** Library for data validation.
+Libraries and packages:<br>
+**async-storage:** Employed to store information locally, as credentials.<br>
+**datetimepicker:** Standard date forms of mobile systems.<br>
+**toolbar-android:** Enables the creation of a toolbar on android.<br>
+**unform:** Library for handling forms in react.<br>
+**axios:** Making external calls to APIs.<br>
+**react-native-gesture-handler:** Used to capture the user's gestures.<br>
+**react-native-image-picker:** Allows you to choose an image from the gallery or activate the camera independent of the mobile system.<br>
+**react-native-vector-icons:** Icon pack for react.<br>
+**styled-components:** Styling library.<br>
+**yup:** Library for data validation.<br>
 
 ## Front-end web
 
@@ -43,33 +43,34 @@ The web front-end was designed for the barber to follow their schedules.
 ### Technologies
 This project was developed in React and typescript.
 
-**jest:** Used for tests.
-**axios:** Making external calls to APIs
-**polished:** Used to cause changes in styles in response to user interactions.
-**react-day-picker:** Date form.
-**react-icons:** Icon pack for react.
-**react-router-dom:** Routing in react.
-**react-spring:** Animation library.
-**styled-components:** Styling library.
-**uuidv4:** Unique key generator.
-**yup:** Library for data validation.
+
+**jest:** Used for tests.<br>
+**axios:** Making external calls to APIs.<br>
+**polished:** Used to cause changes in styles in response to user interactions.<br>
+**react-day-picker:** Date form.<br>
+**react-icons:** Icon pack for react.<br>
+**react-router-dom:** Routing in react.<br>
+**react-spring:** Animation library.<br>
+**styled-components:** Styling library.<br>
+**uuidv4:** Unique key generator.<br>
+**yup:** Library for data validation.<br>
 
 ## REST API
 
 The back-end is composed of a REST API developed in node and typescript.
 
-### Technologies
-**express:** Framework for creating web services.
-**aws-sdk:** SDK for integrating AWS services.
-**multer:** Library to develop midwares.
-**nodemailer:** Library to integrate email sending services.
-**tsyringe:** Dependency injection library.
-**typeorm:** ORM for typescript
-**bcryptjs:** Used To make hashed passwords.
-**celebrate:** Request validation midware.
-**cors:** Used to handle API access permissions.
-**jsonwebtoken:** Token generator.
-**uuidv4:** Key generator.
+### Technologies<br>
+**express:** Framework for creating web services.<br>
+**aws-sdk:** SDK for integrating AWS services.<br>
+**multer:** Library to develop midwares.<br>
+**nodemailer:** Library to integrate email sending services.<br>
+**tsyringe:** Dependency injection library.<br>
+**typeorm:** ORM for typescript.<br>
+**bcryptjs:** Used To make hashed passwords.<br>
+**celebrate:** Request validation midware.<br>
+**cors:** Used to handle API access permissions.<br>
+**jsonwebtoken:** Token generator.<br>
+**uuidv4:** Key generator.<br>
 
 **Database:**
 Three different databases were used:
