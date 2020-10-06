@@ -1,11 +1,13 @@
-##Gobarber
+
+[Leia esta página em português](http....README-pt.md)
+
+## Gobarber
 
 Gobarber is a system to manage barbershops.
-Composed by a desktop and mobile front-end and a REST API as back-end
-
+Composed by a desktop and mobile front-end and a REST API as back-end.
 This project was developed during the course GoStack 11, provided by Rockseat.
 
-### Front-end mobile
+## Front-end mobile
 
 ![mobile app](./docs/appgogarger.gif)
 
@@ -14,10 +16,10 @@ The mobile interface enables you to make an appointment with the barber.
 Just select the professional, the desired date and time.
 It is also possible to make changes to registration such as profile image, name, email and password.
 
-![mobile app](./docs/appgogarger.gif)
+![mobile app](./docs/app_cadastro.png)
 
 
-Technologies
+### Technologies
 This project was developed in React-native and typescript.
 
 Libraries and packages:
@@ -32,13 +34,13 @@ react-native-vector-icons: Icon pack for react.
 styled-components: Styling library.
 yup: Library for data validation.
 
-### Front-end web
+## Front-end web
 
 ![mobile app](./docs/gogargerWEB.gif)
 
 The web front-end was designed for the barber to follow their schedules.
 
-Technologies
+### Technologies
 This project was developed in React and typescript.
 
 jest: Used for tests.
@@ -52,10 +54,11 @@ styled-components: Styling library.
 uuidv4: Unique key generator.
 yup: Library for data validation.
 
-### REST API
+## REST API
 
 The back-end is composed of a REST API developed in node and typescript.
 
+### Technologies
 express: Framework for creating web services.
 aws-sdk: SDK for integrating AWS services.
 multer: Library to develop midwares.
