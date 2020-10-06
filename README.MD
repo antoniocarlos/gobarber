@@ -16,7 +16,7 @@ The mobile interface enables you to make an appointment with the barber.
 Just select the professional, the desired date and time.
 It is also possible to make changes to registration such as profile image, name, email and password.
 
-![mobile app](./docs/app_cadastro.png)
+![mobile app](./docs/app_user.png)
 
 
 ### Technologies
