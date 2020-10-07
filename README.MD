@@ -4,6 +4,8 @@ Gobarber is a system to manage barbershops.
 Composed by a desktop and mobile front-end and a REST API as back-end.
 This project was developed during the course GoStack 11, provided by [Rockseat 🚀](https://rocketseat.com.br/) .
 
+![descktop and mobile app](./docs/descktop_mobile.jpg)
+
 ## 📱 Front-end mobile
 
 ![mobile app](./docs/appgogarger.gif)
