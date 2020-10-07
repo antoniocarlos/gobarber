@@ -78,6 +78,6 @@ mongo db: Document-based database.
 
 This infrastructure runs on independent containers in the docker, making the project highly scalable and performance-oriented.
 
-### :memo: LICENSE
+### ⚖ LICENSE
 
 The project can be copied and modified, as long as due credit is given.
