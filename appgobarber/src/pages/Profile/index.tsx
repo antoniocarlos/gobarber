@@ -38,7 +38,7 @@ interface ProfileFormData {
 }
 
 const Profile: React.FC = () => {
-  const { user, updateUser } = useAuth();
+  const { user, updateUser, signOut } = useAuth();
 
   const navigation = useNavigation();
 
@@ -162,6 +162,12 @@ const Profile: React.FC = () => {
     navigation.goBack();
   }, [navigation]);
 
+  const handleSignOut = useCallback(() => {
+    console.log('foi test');
+    signOut();
+    navigation.navigate('SignUp');
+  }, [signOut, navigation]);
+
   return (
     <>
       <KeyboardAvoidingView
@@ -258,6 +264,8 @@ const Profile: React.FC = () => {
               >
                 Confirmar mudanças
               </Button>
+
+              <Button onPress={() => handleSignOut}>Sair</Button>
             </Form>
           </Container>
         </ScrollView>
